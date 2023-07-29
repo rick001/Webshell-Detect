@@ -23,4 +23,4 @@ def detect_webshell(root_dir):
                         if keywords_found:
                             writer.writerow({'File Path': file_path, 'Keywords Found': keywords_found})
 
-detect_webshell('/var/www/html') # specify the root directory of the web server
+detect_webshell('/root') # specify the root directory of the web server
